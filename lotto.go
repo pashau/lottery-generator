@@ -16,7 +16,7 @@ func contains(intSlice []int, searchInt int) bool {
 	return false
 }
 
-func uniquerandnumbers(amount int, max int) []int {
+func Uniquerandnumbers(amount int, max int) []int {
 	rand.Seed(time.Now().UnixNano())
 	numberSlice := make([]int, amount)
 	for i := 0; i <= amount-1; i++ {
