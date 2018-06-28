@@ -1,4 +1,4 @@
-package main
+package lotto
 
 import (
 	"fmt"
@@ -42,6 +42,7 @@ func inputInt(inputTxt string) int {
 	return x
 }
 
+/*
 func main() {
 	var fields int = inputInt("Amount of Fields? ")
 	for i := 1; i <= fields; i++ {
@@ -50,3 +51,4 @@ func main() {
 		fmt.Println(uniquerandnumbers(2, 10))
 	}
 }
+*/
