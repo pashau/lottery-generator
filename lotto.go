@@ -34,7 +34,6 @@ func Uniquerandnumbers(amount int, max int) []int {
 func inputInt(inputTxt string) int {
 	var x int
 	fmt.Print(inputTxt)
-	// blank identifier?
 	_, err := fmt.Scan(&x)
 	if err != nil {
 		fmt.Println("ERROR: ", err)
@@ -47,8 +46,8 @@ func main() {
 	var fields int = inputInt("Amount of Fields? ")
 	for i := 1; i <= fields; i++ {
 		print(i, "#: ")
-		fmt.Print(uniquerandnumbers(5, 50))
-		fmt.Println(uniquerandnumbers(2, 10))
+		fmt.Print(Uniquerandnumbers(5, 50))
+		fmt.Println(Uniquerandnumbers(2, 10))
 	}
 }
 */
